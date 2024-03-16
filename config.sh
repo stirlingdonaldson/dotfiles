@@ -1,5 +1,7 @@
 #! /bin/bash
 
+chmod+x
+
 DOTFILES=(.bash_profile .gitconfig .gitignore .zshrc)
 
 for dotfile in $(echo ${DOTFILES[*]});
